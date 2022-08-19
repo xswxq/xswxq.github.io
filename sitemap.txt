@@ -1,2 +1,4 @@
+http://example.com/guestbook/index.html
+http://example.com/2022/08/19/a/
 http://example.com/2022/08/16/hello-world/
 http://example.com/
