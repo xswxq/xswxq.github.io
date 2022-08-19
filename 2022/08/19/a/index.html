@@ -479,6 +479,38 @@
    
 
 
+<body>
+    <div id="gitalk-container"></div>
+</body>
+
+<link rel="stylesheet" href="http://liuyuanlin.xyz/cdn/gitalk/gitalk.css">
+<script src="http://liuyuanlin.xyz/cdn/gitalk/gitalk.min.js"></script>
+<script type="text/javascript">
+var gitalk = new Gitalk({
+    clientID: 5663591f3d68b4606b33 ,
+    clientSecret: 2232c5e8f9f80e6a458ad400b19708ef2405b87a,
+    repo: blogcomment,
+    owner: xswxq,
+    admin: [xswxq],
+    id: decodeURI(location.pathname),
+    distractionFreeMode: true
+});
+gitalk.render('gitalk-container');
+
+var language = navigator.language || navigator.userLanguage;
+var intro = document.getElementsByClassName('hero-intro')[0];
+var beginBtn = document.getElementsByClassName('btn-begin')[0];
+var demo = document.getElementsByClassName('demo')[0];
+if (language === 'zh-TW') {
+    intro.innerText = 'һ����� Github Issue �� Preact �_�l���uՓ���';
+    beginBtn.innerText = '�_ʼʹ��';
+} else if (!~language.indexOf('zh')) {
+    intro.innerText = 'A modern comment component based on Github Issue and Preact';
+    beginBtn.innerText = 'GET STARTED';
+    demo.innerText = 'Demo';
+}
+</script>
+
           </div>
         </div>
       </div>
