@@ -1,4 +1,4 @@
-http://example.com/tags/index.html
+http://example.com/%E9%9A%8F%E7%AC%94/index.html
 http://example.com/guestbook/index.html
 http://example.com/2022/08/19/a/
 http://example.com/2022/08/16/hello-world/
