@@ -12,11 +12,11 @@
   
   <meta property="og:type" content="website">
 <meta property="og:title" content="随笔">
-<meta property="og:url" content="http://example.com/tags/%E9%9A%8F%E7%AC%94.html">
+<meta property="og:url" content="http://example.com/tags/index.html">
 <meta property="og:site_name" content="xswxq">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-08-19T12:12:20.000Z">
-<meta property="article:modified_time" content="2022-08-19T12:12:52.991Z">
+<meta property="article:modified_time" content="2022-08-19T12:30:19.869Z">
 <meta property="article:author" content="xswxq">
 <meta name="twitter:card" content="summary">
   
@@ -77,7 +77,7 @@
 			
 				<li><a href="/tags/" target="_blank">随笔</a></li>
 			
-				<li><a href="/guestbook/" target="_blank">留言板</a></li>
+				<li><a href="/guestbook/%7C%7C%20comment" target="_blank">留言板</a></li>
 			
 			</ul>
 		</nav>
@@ -211,7 +211,7 @@
 		        
 					<li style="width: 25%"><a href="/tags/">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/guestbook/">留言板</a></li>
+					<li style="width: 25%"><a href="/guestbook/%7C%7C%20comment">留言板</a></li>
 		        
 				</ul>
 			</nav>
@@ -246,7 +246,7 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/tags/%E9%9A%8F%E7%AC%94.html" class="archive-article-date">
+<a href="/tags/index.html" class="archive-article-date">
         <time datetime="2022-08-19T12:12:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-19</time>
 </a>
 
@@ -326,7 +326,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://example.com/tags/随笔.html" title="随笔" target="_blank">http://example.com/tags/随笔.html</a>
+          <a href="http://example.com/tags/index.html" title="随笔" target="_blank">http://example.com/tags/index.html</a>
         </li>
         
         <li>
@@ -393,7 +393,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://example.com/tags/%E9%9A%8F%E7%AC%94.html" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://example.com/tags/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -747,6 +747,35 @@
   </div>
 
   
+<script type="text/javascript" src="/plugins/TweenMax/TweenMax.min.js"></script>
+<script type="text/javascript" src="/plugins/TweenMax/HoverImg.js"></script>
+
+<script>
+
+
+  var hoverEffect = {
+    "subNav": ".left-col .social a"
+  }
+
+
+  for (var x in hoverEffect) {
+    // 初始化data-img属性值
+    let $em = document.querySelectorAll(hoverEffect[x]);
+    $em.forEach(($a) => {
+      //console.log($a.href);
+      if (isImageType($a.href)) {
+        $a.setAttribute("data-img", $a.href)
+      }
+    })
+    // 实现悬停元素预览图片效果
+    let $a = document.querySelectorAll(hoverEffect[x] + "[data-img]");
+    $a.forEach(($em) => {
+      new HoverImgFx1($em)
+    })
+  }
+
+</script>
+
   
 <script type="text/javascript" src="/plugins/activate-power-mode/activate-power-mode.js"></script>
 <script>
