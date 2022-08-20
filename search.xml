@@ -30,4 +30,28 @@
     
   
   
+    
+    
+    <entry>
+      <title>给我留言吧</title>
+      <link href="/guestbook/index.html"/>
+      <url>/guestbook/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随笔</title>
+      <link href="/%E9%9A%8F%E7%AC%94/index.html"/>
+      <url>/%E9%9A%8F%E7%AC%94/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
