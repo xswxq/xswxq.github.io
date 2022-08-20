@@ -38,9 +38,6 @@
   
 
   
-    
- 	  <script src="/lib/clickLove.js"></script>
-  
   
 
 
@@ -369,10 +366,10 @@
   var titleTime;
   document.addEventListener("visibilitychange", function () {
     if (document.hidden) {
-      document.title = "xswxq的个人博客" + originTitle;
+      document.title = "xswxq个人博客" + originTitle;
       clearTimeout(titleTime);
     } else {
-      document.title = "欢迎光临 " + originTitle;
+      document.title = "xswxq个人博客 " + originTitle;
       titleTime = setTimeout(function () {
         document.title = originTitle;
       }, 2000);
