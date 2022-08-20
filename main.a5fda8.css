@@ -3956,7 +3956,7 @@ a.pswp__share--download:hover {
 }
 
 /* 今日诗词 */
-.jinrishici-sentence{
+#jinrishici-sentence{
   color:#27d7a1;
   padding-left: 10px;
   line-height: 45px;
