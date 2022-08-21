@@ -158,7 +158,7 @@ body {
   color: #333; 
   /*background-color:#fff;*/
   min-height: 100%;
-  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/00/ChMkJlbKw6KIXhXnAA4L-_oxRzUAALG6QBUSg8ADgwT181.jpg') no-repeat 0% 0%/ cover;
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('img/right_backgroud.jpg') no-repeat 0% 0%/ cover;
   cursor: url('https://oss.yansheng.fun/ico/cursor.ico'), default;
 }
 
@@ -1971,6 +1971,7 @@ pre .css ~ * .id, pre .id {
   border: 1px solid #ddd;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  /* background:#fff; */
   background: rgba(255,255,255,.5);
   transition: all .2s ease-in
 }
