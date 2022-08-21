@@ -158,7 +158,7 @@ body {
   color: #333; 
   /*background-color:#fff;*/
   min-height: 100%;
-  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('img/right_backgroud.jpg') no-repeat 0% 0%/ cover;
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('https://oss.yansheng.fun/wallpaper/qinshimingyue.jpg') no-repeat 0% 0%/ cover;
   cursor: url('https://oss.yansheng.fun/ico/cursor.ico'), default;
 }
 
